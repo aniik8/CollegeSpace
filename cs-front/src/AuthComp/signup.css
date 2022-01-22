@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+#textField1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center
+}
+
+#textField1 p {
+    font-size: 13px;
+    color: #1d1e20;
+    font-weight: 700
+}
+.cardId:hover{
+	background-color: var(--bgcolor);
+	cursor: pointer;
+}
+#inputText {
+    position: relative;
+    margin-top: 30px
+}
+
+#textField {
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid #e0e3e9;
+    padding: 0 10px;
+    padding-left: 30px;
+    outline: 0;
+    font-size: 13px
+}
+
+#passwordField {
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid #e0e3e9;
+    padding: 0 10px;
+    padding-left: 30px;
+    padding-right: 27px;
+	font-size: 13px;
+    outline: 0
+}
+
+.fa-envelope {
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    top: 5px
+}
+
+.fa-lock {
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 15px
+}
+
+#inputText .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 15px;
+    cursor: pointer
+}
+
+.fa-eye {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 15px;
+    cursor: pointer
+}
+
+#Btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#Btnn {
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: #267fff;
+    border-radius: 9px;
+    font-size: 12px;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+#Btnn:hover {
+    background-color: #083c87
+}
+
+.forgot {
+    margin-top: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: black;
+}
+
+
+.warning {
+    border: 1px solid red !important
+}
+
+.type_password {
+    border: 1px solid red !important
+}
+.btun:hover{
+	background-color: #083c87
+
+}
+
+.gradient-custom-3 {
+	/* fallback for old browsers */
+	background: #84fab0;
+  
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+  
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+  }
+  .gradient-custom-4 {
+	/* fallback for old browsers */
+	background: #84fab0;
+  
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+  }
+
+.but-hover:hover{
+	background-color: #083c87
+}
